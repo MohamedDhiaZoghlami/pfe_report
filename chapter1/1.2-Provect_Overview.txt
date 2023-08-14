@@ -1,0 +1,37 @@
+In this section we will be talking about the project context, the description of the problem and the end goal of our project.
+
+1.2.1-Project Context
+=====================
+The project is entitled "Design and development of a business opportunity management application.". It concludes the courses of the third year of Software Engineering, specifically TWIN (Technologies of Web and Information), at ESPRIT School of Engineering as a graduation project. I were led through it to make a professional experience in Progress Engineering for the position of "Full Stack Software Engineer”, from March to September 2023.
+
+1.2.2-Problem Statement
+=======================
+In today's rapidly evolving business landscape, customers stand as the cornerstone of revenue generation, holding a pivotal role in shaping a company's success. However, this vital revenue stream is encountering new challenges due to the escalating competition fueled by the integration of cutting-edge technologies. As businesses harness the power of technological advancements, they find themselves operating in an era of heightened customer expectations and unprecedented options.
+
+The traditional paradigm of customer-business interactions has undergone a seismic shift. Empowered by digital transformation, customers are now equipped with an array of choices that span geographical boundaries and industry sectors. This proliferation of options has elevated the competition to a level where companies must vie not only with local competitors but also with global counterparts, intensifying the battle for customer loyalty and market share.
+
+In parallel, the dynamics of customer expectations have evolved drastically. Customers, armed with the ability to compare products, services, and experiences instantly, are increasingly discerning in their demands. They expect businesses to be not just responsive, but hyper-responsive, providing seamless interactions, tailored solutions, and rapid issue resolution. This demand for personalized and instantaneous service has put immense pressure on companies to reengineer their customer engagement strategies and elevate their customer service capabilities to new heights.
+
+As a result, businesses find themselves in a dual challenge: they must not only stay ahead of the technological curve to remain competitive but also recalibrate their approach to customer engagement to meet the heightened expectations of the modern consumer. A misstep in either direction can lead to loss of market share, erosion of customer trust, and ultimately, diminished revenue.
+
+Under the pressure of situations like this, how do we ensure the continuity of business and the winning of new projects ?
+
+
+1.2.3-Exisitng products:
+*Salesforce:Salesforce is one of the most well-known and widely used CRM platforms. It offers a comprehensive suite of tools for managing sales, customer service, marketing, and more. Salesforce allows businesses to centralize customer information, track interactions, manage leads and opportunities, automate tasks, and provide a holistic view of the customer journey.
+
+*HubSpot CRM:HubSpot CRM is a robust CRM solution designed to help businesses streamline their sales, marketing, and customer service efforts. It offers tools for managing contacts, tracking deals, automating workflows, creating marketing campaigns, and providing customer support.
+
+CRITISISM:
+==========
+*Salesforce: _Complexity and Learning Curve_:Salesforce's extensive feature set and customization options can lead to a steep learning curve for new users. Implementation and configuration might require significant time and resources, especially for smaller businesses without dedicated IT teams.
+_Cost_: Salesforce's pricing can be considered high, particularly for smaller businesses. While they offer various plans, the more advanced features often come at a premium, making it a substantial investment for some companies.
+
+*HubSpot CRM: _Limited Advanced Functionality_: While HubSpot CRM is excellent for small to medium-sized businesses, larger enterprises might find that it lacks some of the more advanced features and scalability they require.
+_Pricing Tiers_: some advanced features are locked behind higher-priced tiers, which might not be cost-effective for all businesses specially smaller ones.
+
+
+
+
+
+
