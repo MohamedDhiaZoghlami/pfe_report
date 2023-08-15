@@ -1,0 +1,57 @@
+1.4.1-Agile Scrum :
+What is agile?
+==============
+Agile is a process that allows a team to more efficiently manage a project by breaking it down into several stages, each of which allows for consistent collaboration with stakeholders to promote steady improvements at every stage.[reference]
+
+What is scrum?
+==============
+In short, scrum is a framework for effective collaborations among teams working on complex products. Scrum is a type of agile technology that consists of meetings, roles, and tools to help teams working on complex projects collaborate and better structure and manage their workload. Although it is most often used by software development teams, scrum can be beneficial to any team working toward a common goal.[reference]
+
+What is agile scrum?
+====================
+Agile scrum methodology is a project management system that relies on incremental development. Each iteration consists of two- to four-week sprints, where the goal of each sprint is to build the most important features first and come out with a potentially deliverable product. More features are built into the product in subsequent sprints and are adjusted based on stakeholder and customer feedback between sprints.[reference]
+
+In our case , we had 12 sprints over 6 months , each sprint lasts for 2 weeks and we combined each 4 sprints into a release so overall we have 3 main releases.
+
+The methodology we adapted is as follows :
+	*Daily meeting:
+		What I have been working on?
+		What will I work on today?
+		What is blocking me ?
+	*Weekly meeting:
+		The made Progress
+		Re-order priorities
+
+	*Sprint review:
+		Every 2 weeks we represent the work
+		we accomplished during the sprint.
+	*Release:
+		Every 2 months (4 sprints) we deliver the complete work
+		we have done during the release
+
+
+
+1.4.2- Software Development Lifecycle:
+The software development lifecycle (SDLC) is the series of steps an organization follows to develop and deploy its software. There isn't a single, unified software development lifecycle. Rather, there are several frameworks and models that development teams follow to create, test, deploy, and maintain software.
+
+Planning:
+========
+This is the first phase and it was dedicated to define the project scope, goals, and objectives in collaboration with stakeholders, gather and document detailed requirements, including features, functionalities, and user roles, create a project plan outlining tasks, responsibilities, and timelines.
+
+Code & Build:
+============
+This is the second phase of the process which we as developers do our main job and that is design the global architecture and the database architecture, develop the necessary frontend and backend functionalities, implement buisness logic.
+
+Test:
+=====
+Testing is an essential part of any software development lifecycle. In addition to security testing, performance tests, unit tests, and non-functional testing such as interface testing all take place in this phase.
+
+Deployment:
+==========
+This phase is dedicated to the delpoyment of the application, this is where we introduced DevOps into our project by implementing a continuous integration/continuous delivery (CI/CD) with the use of Infrastructure as Code (IaC) tools to define and manage the application's infrastructure, making deployment consistent and repeatable.
+
+
+
+
+
+*reference:https://www.businessnewsdaily.com/4987-what-is-agile-scrum-methodology.html

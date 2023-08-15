@@ -1,0 +1,1 @@
+At this point, we've gained a comprehensive grasp of the project's overall scope and its alignment with Progress Engineering's mission to face the above challenges. In the upcoming sections, our focus will be on establishing the fundamental principles that we will build upon our application.
