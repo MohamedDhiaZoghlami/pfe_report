@@ -1,0 +1,52 @@
+Since we have 4 actors and each has its own role,we have 4 dashboards so we decided to divide the functional requirments into 5 parts: 4 of them depends on the view of each actor and the final one is system functional requirments
+
+
+*Admin space management:
+Being an admin , you have the full control of the application :
+	-Full access to user management.
+	-Full access to customer management.
+	-Full access to contact management.
+	-Full access to opportunities management.
+	-Full access to project management.
+	-Full access to task management.
+	-Full access to bill management.
+	-Full access to contract management.
+	-Full access to offer management.
+	-Assign a commercial agent to an opportunity.
+	-Assign a team to a project.
+	-Assing an IT agent to a specific task.
+	-Ability to view commercial agent statistics.
+	-Ability to view commercial agent scores.
+	-Ability to view the opportunity lifecycle from A to Z.
+	-Ability to view full reports (Money gained, Customers gained/lost, percentage of opportnities won, etc...)
+
+*Secretary space management : 
+	-Full access to customer management.	
+	-Full access to contact management.	
+	-Ability to add/read opportunities.
+	-Ability to change user profile.
+
+*Commercial agent space management : 
+This actor is mainly created to handle opportunity assigned to him/her and make an adequat offers, therefore :
+	-Update an opportunity status from "Assigned" to "Working On" then to 	"Negotiationg".
+	-Update an opportunity status from "Negotiationg" to "Closed won" or "Closed 	lost"
+	-Create an offer related to an opportunity assigned to him/her.
+	-Submit an offer.
+	-Update an offer from "On going" to "Accepted" or "Rejected".
+	-Delete offers made by him/her that are not submitted.
+
+*IT Agent space management :
+After winning an opportunity , it becomes a project so this actor is handling the techincal part of the project as follows :
+	-Update status of tasks from "Assigned" to "Working on" to "Test" then finally to 	"done".
+	-Create a feedback(if missing information about his/her task) if necessary.
+
+*System functional requirments : 
+	-Authentication and authorization.
+	-An upload/download file system.
+	-Emailing service.
+	-Reminder service for each related actor.
+
+
+
+
+

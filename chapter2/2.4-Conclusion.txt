@@ -1,0 +1,1 @@
+By analyzing our project objectives and business specifications, we took the first step in clarifying the large modules that our application will tackle in this chapter. The technical environment in which we will develop this application is described in the following chapter.

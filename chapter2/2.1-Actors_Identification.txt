@@ -1,0 +1,9 @@
+An "actor" in the context of a web application usually refers to any entity that engages with or makes use of the application. These entities could be people, machines, or other external elements that operate the application. Understanding the various roles that actors play in a web application's operation helps in creating and putting the application's functionality and security measures into place.
+For our application we can identify 4 total actors as follows :
+	-Admin: This entity has a full access to everything of the app,
+	it mainly refers to administrative members who will have the 
+	final decision making of every operation.
+	-Secretary: Employee of the company and his/her main job is to 
+	add necessary documents as needed.	
+	-Commercial Agent: Employee of the company that will be working on every 	opportunity assigned to him/her.
+	-IT Agent : Employee of the company that will be working on every 			project or task assigned to him/her.

@@ -1,0 +1,14 @@
+Ergonomic : 
+The application has an intuitive and user-friendly interface that is easy to navigate and use.
+
+Security:
+We implemnted authentication and authorization mechanisms to ensure that only authorized users have access to specific features and data.
+
+Reliability:
+Using some error handling technics and through consistent testing and monitoring we ensured that our application is reliable.
+
+Scalibility :
+The application is designed to accommodate both vertical scaling (adding more resources to a single server) and horizontal scaling (distributing load across multiple servers) so it will be always scalable.
+
+Availability:
+We ensured that the application is highly availalbe by adding load balancers and using cloud services to deploy the application.
