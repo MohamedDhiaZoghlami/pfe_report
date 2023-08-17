@@ -1,0 +1,76 @@
+3.1-FrontEnd technologies:
+==========================
+
+3.1.1-React JS:
+	React.js, is an open-source JavaScript library used for building user interfaces for web applications. It was developed by Facebook and later open-sourced, gaining widespread adoption in the web development community. React allows developers to create reusable UI components and manage the dynamic rendering of those components based on changes in application state.
+*advantages:
+	1-Component-Based Architecture: React's component-based architecture allows developers to break down complex user interfaces into smaller, reusable components. This modularity makes it easier to manage and maintain code, promotes reusability, and facilitates collaboration among developers working on different parts of an application.
+	2-Virtual DOM and Performance Optimization: React's use of a virtual DOM (Document Object Model) provides a significant performance boost. 
+	3-Strong Ecosystem and Community Support: React has a large and active community of developers, which means there are numerous resources, tutorials, libraries, and tools available to help developers learn and build with React.
+
+3.1.2-Material UI:
+	
+	Material-UI is a popular open-source UI framework for building user interfaces in React applications. It provides a set of reusable components and styles based on Google's Material Design principles. Material Design is a design language developed by Google that emphasizes a clean and modern aesthetic, along with a focus on usability and consistency across platforms.
+
+
+3.2-Backend Technologies:
+	3.2.1-Springboot :Java Spring Boot (Spring Boot) is a tool that makes developing web application and microservices with Spring Framework faster and easier through three core capabilities:
+
+Autoconfiguration
+
+An opinionated approach to configuration
+
+The ability to create standalone applications
+These features work together to provide you with a tool that allows you to set up a Spring-based application with minimal configuration and setup. [ref]
+
+3.2.2-Spring security:
+	Spring Security is a framework that provides authentication, authorization, and protection against common attacks. With first class support for securing both imperative and reactive applications, it is the de-facto standard for securing Spring-based applications.[ref2]
+
+3.3-Database: 
+	3.3.1-MySql:
+	MySQL is an open-source relational database management system (RDBMS) that is widely used for storing and managing structured data. It is one of the most popular and commonly used database systems in the world.
+
+3.4-Versionning:
+	3.4.1-Git :
+		Git is an open-source distributed version control system (VCS) that is widely used for tracking changes in source code during software development. It was initially developed by Linus Torvalds in 2005 and has since become one of the most popular and essential tools in the field of software development.
+
+	3.4.2-GitHub:
+		GitHub is a web-based platform and service that provides tools for version control and collaborative software development using the Git version control system. It offers a wide range of features to help developers and teams manage, collaborate on, and track changes to their codebase.
+
+3.5-Cloud Services:
+	3.5.1-AWS CodeBuild: It is a fully managed build service that helps you compile source code, run unit tests, and produce artifacts that are ready to deploy. AWS CodeBuild scales continuously and processes multiple builds concurrently, so your builds are not left in the queue.
+
+3.5.2-AWS CodePipeline: helps you quickly model and configure the different stages of a software release and automate the steps required to release software changes continuously. You can integrate AWS CodePipeline with third-party services like GitHub, or use an AWS services such as AWS CodeCommit or Amazon ECR.
+
+3.5.3-Amazon Elastic Container Registry (Amazon ECR):It is a fully managed registry that makes it easy for developers to store, manage, and deploy Docker container images. Amazon ECR is integrated with Amazon ECS to simplify your development-to-production workflow. Amazon ECR hosts your images in a highly available and scalable architecture so you can deploy containers for your applications reliably. Integration with AWS Identity and Access Management (IAM) provides resource-level control of each repository.
+
+3.5.4-Amazon Elastic Container Service (Amazon ECS): It is a highly scalable, high-performance container orchestration service that supports Docker containers and allows you to easily run and scale containerized applications on AWS. Amazon ECS eliminates the need for you to install and operate your own container orchestration software, manage and scale a cluster of virtual machines, or schedule containers on those virtual machines.
+
+3.5.5-AWS Fargate: It's a compute engine for Amazon ECS that allows you to run containers without having to manage servers or clusters. With AWS Fargate, you no longer have to provision, configure, and scale clusters of virtual machines to run containers. This removes the need to choose server types, decide when to scale your clusters, or optimize cluster packing.
+
+3.5.6-Amazon Relational Database Service (Amazon RDS):It is a web service that makes it easier to set up, operate, and scale a relational database in the cloud. It provides cost-efficient, resizeable capacity for an industry-standard relational database and manages common database administration tasks. Amazon Aurora is a fully managed relational database engine that's built for the cloud and compatible with MySQL and PostgreSQL. Amazon Aurora is part of Amazon RDS.[ref3 for all]
+
+3.6-Other:
+	3.6.1-Docker:
+		Docker is an open-source platform that enables programmers to automatically deploy, scale, and manage applications inside of isolated, lightweight containers. Containers, a type of virtualization, offer a consistent and portable environment for running software across many settings, including development, testing, and production. They package an application and its dependencies together.
+	3.6.2-CDK:
+		
+CDK stands for "Cloud Development Kit." It is an open-source software development framework that allows developers to define cloud infrastructure in familiar programming languages, such as TypeScript, Python, Java, and others. The CDK simplifies the process of provisioning and managing cloud resources by providing a higher-level abstraction over cloud providers' native infrastructure-as-code tools.
+
+
+
+
+
+
+
+
+*reference;https://www.ibm.com/topics/java-spring-boot
+	   https://docs.spring.io/spring-security/reference/index.html
+	   https://docs.aws.amazon.com/
+
+
+
+
+
+
+

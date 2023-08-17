@@ -1,0 +1,3 @@
+After defining the requirements and specifications of our project, we will dedicate this chapter to talk about the different technologies that we have used to build our solution,
+we will be deviding them into parts , FrontEnd, BackEnd, Database, DevOps.
+ 
