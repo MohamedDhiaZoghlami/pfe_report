@@ -1,0 +1,149 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+
+
+Table company {
+  id integer [primary key]
+  title varchar
+  logo varchar
+  type varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+
+Table user {
+  id integer [primary key]
+  first_name varchar
+  last_name varchar
+  username varchar
+  phone varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+Table role {
+  id integer [primary key]
+  name varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+Table oppurtinuty {
+  id integer [primary key]
+  name varchar
+  description varchar 
+  file varchar 
+  expected_close_date timestamp
+  VALUE varchar 
+  STAGE varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+Table customer {
+  id integer [primary key]
+  name varchar 
+  email varchar 
+  phone varchar 
+  adress varchar 
+  created_at timestamp
+  last_updated_at timestamp
+}
+Table contact {
+  id integer [primary key]
+  first_name varchar 
+  last_name varchar 
+  email varchar
+  phone varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+Table project {
+  id integer [primary key]
+  name varchar 
+  description varchar
+  start_date timestamp
+  end_date timestamp
+  created_at timestamp
+  last_updated_at timestamp
+}
+Table task {
+  id integer [primary key]
+  name varchar 
+  description varchar
+  start_date timestamp
+  end_date timestamp
+  STATUS varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+
+Table file {
+  id integer [primary key]
+  name varchar 
+  type varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+
+Table quotient {
+  id integer [primary key]
+  amount integer
+  type varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+
+Table bill {
+  id integer [primary key]
+  amount integer 
+  description varchar
+  step integer
+  created_at timestamp
+  last_updated_at timestamp
+}
+
+Table contract {
+  id integer [primary key] 
+  description varchar
+  file varchar
+  created_at timestamp
+  last_updated_at timestamp
+}
+
+Table oppurtinuty_assignment {
+  id integer [primary key]
+  user_id integer
+  oppurtinuty_id integer
+  created_at timestamp
+}
+
+Table task_assignment {
+  id integer [primary key]
+  agent_id integer
+  task_id integer
+  created_at timestamp
+}
+
+Table notification {
+  id integer [primary key]
+  user_id integer
+  description varchar
+  status varchar
+  created_at timestamp
+}
+
+
+Ref: user.id > company.id // many-to-one
+Ref : user.id - role.id //one-to-one
+Ref: customer.id < contact.id //one-to-many
+Ref: oppurtinuty_assignment.oppurtinuty_id - oppurtinuty.id
+Ref : oppurtinuty_assignment.user_id - user.id
+Ref : oppurtinuty.id - customer.id
+Ref: oppurtinuty.id - quotient.id 
+Ref : contract.id - customer.id
+Ref : contract.id - company.id
+Ref : notification.user_id - user.id
+Ref : project.id - customer.id
+Ref : task.id > project.id
+Ref : task_assignment.agent_id - user.id
+Ref : task_assignment.task_id - task.id
+Ref : bill.id > project.id
